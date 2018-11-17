@@ -1,0 +1,6 @@
+#+TITLE: pva - Php Variable function Arguments
+#+AUTHOR: Rafał -rsm- Marek
+
+Php Variable function Arguments - pomoce w obsłudze funkcji o zmiennej ilości argumentów, funkcjonalnie dla PHP.
+
+/(prace w toku)/
