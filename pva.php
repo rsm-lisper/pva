@@ -1,6 +1,6 @@
 <?php
 
-namespace rsm_lisper\pva ;
+namespace pva ;
 
 /**
  * @param callable $predicate

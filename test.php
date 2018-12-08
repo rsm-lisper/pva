@@ -3,8 +3,8 @@
 require 'lib/ppt/ppt.php';
 require 'pva.php';
 
-use function rsm_lisper\ppt\test_all, rsm_lisper\exit_nicely,
-    rsm_lisper\pva\every, rsm_lisper\pva\some, rsm_lisper\pva\none ;
+use function ppt\test_all, ppt\exit_nicely,
+    pva\every, pva\some, pva\none ;
 
 
 $pva_test_specs = [
@@ -18,4 +18,4 @@ $pva_test_specs = [
      ['is_int false 3', some ('is_int', "0", 1.1, "nie", []), false],
      ['is_int true 5', some ('is_int', "0", 1.1, "nie", [], 100), true]] ];
 
-print (test_all ($pva_test_specs));
+exit_nicely (test_all ($pva_test_specs));
